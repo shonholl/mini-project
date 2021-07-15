@@ -1,0 +1,36 @@
+{
+    "orders_menu": {
+        "items": [
+            {
+                "customer_name": "Tommy",
+                "customer_address": "Unit 2, 12 Main Street, LONDON, WH1 2ER",
+                "customer_phone": "0789887334",
+                "courier": 2,
+                "status": "preparing"
+            },
+            {
+                "customer_name": "John",
+                "customer_address": "14 Ladbroke Street, LONDON, W16 8UI",
+                "customer_phone": "07562223987",
+                "courier": 1,
+                "status": "shipped"
+            },
+            {
+                "customer_name":"Arthur",
+                "customer_address": "Flat 8, Roman way, Richmond, KT2 5LV",
+                "customer_phone": "07136547815",
+                "courier": 3,
+                "status": "pending payment"
+            },
+            {
+                "customer_name":"Michael",
+                "customer_address": "79 Sycamore Drive, Kew, SW14 0NY ",
+                "customer_phone": "0762434991",
+                "courier": 2,
+                "status": "delivered"
+            }
+
+        ]
+    }
+}
+
