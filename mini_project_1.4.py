@@ -219,35 +219,38 @@ while True:
             
             orders_list = [
             {
-                "customer_name": "Tommy",
-                "customer_address": "Unit 2, 12 Main Street, LONDON, WH1 2ER",
-                "customer_phone": "0789887334",
-                "courier": 0,
-                "status": "preparing"
-            },
-            {
-                "customer_name": "John",
-                "customer_address": "14 Ladbroke Street, LONDON, W16 8UI",
-                "customer_phone": "07562223987",
-                "courier": 1,
-                "status": "shipped"
-            },
-            {
-                "customer_name":"Arthur",
-                "customer_address": "Flat 8, Roman way, Richmond, KT2 5LV",
-                "customer_phone": "07136547815",
-                "courier": 2,
-                "status": "pending payment"
-            },
-            {
-                "customer_name":"Michael",
-                "customer_address": "79 Sycamore Drive, Kew, SW14 0NY ",
-                "customer_phone": "0762434991",
-                "courier": 3,
-                "status": "delivered"
-            }
-
-        ]
+            "customer_name": "Ethan",
+            "customer_address": "Unit 2, 12 Main Street, LONDON, WH1 2ER",
+            "customer_phone": "0789887334",
+            "courier": 0,
+            "status": "preparing",
+            "items": [0]
+        },
+        {
+            "customer_name": "Julia",
+            "customer_address": "14 Ladbroke Cresecent, LONDON, W16 8UI",
+            "customer_phone": "07562223987",
+            "courier": 1,
+            "status": "shipped",
+            "items":[1,2]
+        },
+        {
+            "customer_name": "Artie",
+            "customer_address": "Flat 8, Roman Way, Richmond, KT2 5LV",
+            "customer_phone": "07136547815",
+            "courier": 2,
+            "status": "pending payment",
+            "items" :[1]
+        },
+        {
+            "customer_name": "Marleigh",
+            "customer_address": "79 Sycamore Drive, Kew, SW14 0NY ",
+            "customer_phone": "0762434991",
+            "courier": 3,
+            "status": "delivered",
+            "items":[2,0]
+        }
+    ]
     
         print(f" index 0:",orders_list[0])
         print(f"index 1:",orders_list[1])
