@@ -189,7 +189,7 @@ while True:
             print("index",":","value")
             for i,v in enumerate(couriers_numbers):
                 print(i,":",v)
-            courier_index = int(input("Select courier index"))
+            courier_index = int(input("Select a courier index"))
             order_status = "preparing"
             
             new_order = {
@@ -246,7 +246,7 @@ while True:
             "customer_name": "Marleigh",
             "customer_address": "79 Sycamore Drive, Kew, SW14 0NY ",
             "customer_phone": "0762434991",
-            "courier": 3,
+            "courier": 1,
             "status": "delivered",
             "items":[2,0]
         }
@@ -256,14 +256,14 @@ while True:
         print(f"index 1:",orders_list[1])
         print(f" index 2:",orders_list[2])
         print(f"index 3:",orders_list[3])
-        order_index = int(input("Please select an order to update"))
+        order_index = int(input("Select an order to update"))
         
         print("index",":","value")
         for i,v in enumerate(order_status):
                 print(i,":",v)
-        order_status_index = int(input("Please select a order status index"))
+        order_status_index = int(input("Select a order status index"))
         
-        new_order_status = input("Please enter a new order status")    
+        new_order_status = input("Enter a new order status")    
     
         orders_list[order_status_index]["status"] = new_order_status 
         
@@ -306,7 +306,7 @@ while True:
         
         
         fieldnames_orders = ['customer_name','customer_address',
-                            'customer_phone','courier','status']
+                            'customer_phone','courier','status','items']
         
         orders = [
             {
@@ -337,7 +337,7 @@ while True:
             "customer_name": "Marleigh",
             "customer_address": "79 Sycamore Drive, Kew, SW14 0NY ",
             "customer_phone": "0762434991",
-            "courier": 3,
+            "courier": 1,
             "status": "delivered",
             "items":[2,0]
         }
