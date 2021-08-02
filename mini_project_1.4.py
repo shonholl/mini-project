@@ -57,7 +57,7 @@ def product_menu():
     print("Product Menu Options")
     print("[0] Return to Main Menu")
     print("[1] Order(Products List)")
-    print("[2] Custom Product")
+    print("[2] New Product")
     print("[3] Update Product")
     print("[4] Delete Product")
 
