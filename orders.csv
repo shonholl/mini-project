@@ -1,5 +1,10 @@
-customer_name,customer_address,customer_phone,courier,status,items
-Ethan,"Unit 2, 12 Main Street, LONDON, WH1 2ER",0789887334,0,preparing,[0]
-Julia,"14 Ladbroke Cresecent, LONDON, W16 8UI",07562223987,1,shipped,"[1, 2]"
-Artie,"Flat 8, Roman Way, Richmond, KT2 5LV",07136547815,2,pending payment,[1]
-Marleigh,"79 Sycamore Drive, Kew, SW14 0NY ",0762434991,3,delivered,"[2, 0]"
+customer_name,customer_address,customer_phone,courier,status,items
+
+Ethan,"Unit 2, 12 Main Street, LONDON, WH1 2ER",07898873345,0,preparing,[0]
+
+Julia,"14 Ladbroke Cresecent, LONDON, W16 8UI",07562223987,1,shipped,"[1, 2]"
+
+Artie,"Flat 8, Roman Way, Richmond, KT2 5LV",07136547815,2,pending payment,[1]
+
+Marleigh,"79 Sycamore Drive, Kew, SW14 0NY ",07624349913,1,delivered,"[2, 0]"
+
